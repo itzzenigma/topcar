@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopCars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+
+            .nav{
+                background-color: #8d8f91;
+                color: #fff;
+                padding: 10px 0;
+            }
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+        header {
+            border-bottom: 1px solid #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content img {
+            width: 45%;
+            border-radius: 8px;
+        }
+        .content .text {
+            width: 50%;
+        }
+        .content .text h2 {
+            font-size: 24px;
+        }
+        .content .text p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .content .text a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .card img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .card h2 {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        .card p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .card .price {
+            font-size: 18px;
+            color: #333;
+        }
+        .card .epa {
+            font-size: 16px;
+            color: #666;
+        }
+        .card .description {
+            font-size: 14px;
+            color: #333;
+        }
+        .card .learn-more {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+          
+            <h1>Porsche
+            </h1>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>We don't really need to explain Porsche to you, do we?</h2>
+                <p>Porsche, a name synonymous with speed, luxury, and engineering excellence, has been captivating automotive enthusiasts for decades. Founded by Ferdinand Porsche in 1931, the company's journey began with a focus on engineering and consulting for other automakers.</p>
+                <a href="http://127.0.0.1:5500/index.html">Browse more vehicles</a>
+            </div>
+            <img src="https://www.autocar.co.nz/wp-content/uploads/2022/08/BKOS6959_edit_V02_highres.jpeg" alt="Bugatti Chiron">
+        </div>
+        <div class="card">
+            <!-- number 1 -->
+            <h2>Porsche 911</h2>
+            <img src="https://mediaassets.pca.org/pages/pca/images/content/img_9(3).jpg" alt="Porsche 911">
+            <p class="price">$114,400 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The iconic 911 is the undisputed king of Porsche's lineup. Its enduring design, exceptional handling, and continuous evolution have made it a legend...<a href="http://127.0.0.1:5500/p1.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 2 -->
+            <h2>Porsche 959</h2>
+            <img src="https://www.supercars.net/blog/wp-content/uploads/2020/07/porsche-1-1050x700-1.jpg" alt="Porsche 959">
+            <p class="price">$3M Dollars ($3,000,000 USD)</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> A groundbreaking supercar of its time, the 959 pushed the boundaries of technology and performance...<a href="http://127.0.0.1:5500/p2.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 3 -->
+            <h2>Porsche 918 Spyder</h2>
+            <img src="https://robbreport.com/wp-content/uploads/2021/07/1-15.jpg" alt="Porsche 918 Spyder">
+            <p class="price">$3M Dollars ($3,000,000 USD)
+
+            </p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> A hybrid hypercar that redefined performance and efficiency...<a href="http://127.0.0.1:5500/p3.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 4 -->
+            <h2>Porsche Carrera GT</h2>
+            <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F09%2F2004-porsche-carrera-gt-bring-a-trailer-auction-1-3-m-usd-german-supercar-tw.jpg?w=960&cbr=1&q=90&fit=max" alt="Porsche Carrera GT">
+            <p class="price">$2M Dollars ($2,000,000 USD)</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> A naturally aspirated masterpiece with raw power and exhilarating driving experience...<a href="http://127.0.0.1:5500/p4.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 5 -->
+            <h2>Porsche 911 GT3 RS</h2>
+            <img src="https://www.topgear.com/sites/default/files/2022/08/CFM_2458v1.jpg" alt="Porsche 911 GT3 RS">
+            <p class="price">$350,000 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The ultimate track-focused 911, delivering extreme performance and precision...<a href="http://127.0.0.1:5500/p5.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 6 -->
+            <h2>Porsche Taycan</h2>
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/Taycan-2024/11515/1707404051019/front-left-side-47.jpg" alt="Porsche Taycan">
+            <p class="price">$200,000 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> Porsche's electric revolution, offering luxury, performance, and sustainability...<a href="http://127.0.0.1:5500/p6.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 7 -->
+            <h2>Porsche 356</h2>
+            <img src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/12/Porsche-356-F-Car-Scoops.jpg" alt="Porsche 356">
+            <p class="price">$500,000 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> TThe original Porsche, a timeless classic that laid the foundation for the brand...<a href="http://127.0.0.1:5500/p7.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 8 -->
+            <h2>Porsche 930 Turbo</h2>
+            <img src="https://www.classic-trader.com/de/magazin/wp-content/uploads/sites/4/2020/03/Porsche_911_930_Turbo_Green_1500x790.jpg" alt="Porsche 930 Turbo">
+            <p class="price">$350,000 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The wide-body, turbocharged 911 that became a cult classic...<a href="http://127.0.0.1:5500/p8.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 9 -->
+            <h2>Porsche Cayman GT4 RS</h2>
+            <img src="https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2021/Products/718-Cayman-GT4-RS/769_003_highres.jpeg/jcr:content/769_003_highres.jpeg" alt="Porsche Cayman GT4 RS">
+            <p class="price">$160,700 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> A mid-engine masterpiece with razor-sharp handling and incredible performance...<a href="http://127.0.0.1:5500/p9.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 10 -->
+            <h2>Porsche Cayenne Turbo GT</h2>
+            <img src="https://i0.wp.com/www.dailymaverick.co.za/wp-content/uploads/2022/08/BM-Alex-Zoom-Cayenne3.jpeg?fit=720%2C405&quality=89&ssl=1" alt="Porsche Cayenne Turbo GT">
+            <p class="price">$196,300 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The pinnacle of Porsche SUV performance, combining luxury and speed...<a href="http://127.0.0.1:5500/p10.html" class="learn-more">Learn more</a></p>
+        </div>
+    </div>
+</body>
+</html>

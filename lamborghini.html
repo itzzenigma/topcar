@@ -1,0 +1,210 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopCars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+
+            .nav{
+                background-color: #8d8f91;
+                color: #fff;
+                padding: 10px 0;
+            }
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+        header {
+            border-bottom: 1px solid #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content img {
+            width: 45%;
+            border-radius: 8px;
+        }
+        .content .text {
+            width: 50%;
+        }
+        .content .text h2 {
+            font-size: 24px;
+        }
+        .content .text p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .content .text a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .card img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .card h2 {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        .card p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .card .price {
+            font-size: 18px;
+            color: #333;
+        }
+        .card .epa {
+            font-size: 16px;
+            color: #666;
+        }
+        .card .description {
+            font-size: 14px;
+            color: #333;
+        }
+        .card .learn-more {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+           
+            <h1>Lamborghini
+            </h1>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>We don't really need to explain Lamborghini to you, do we?</h2>
+                <p>Lamborghini has spent decades as the purveyor of drool-worthy supercars that are more commonly seen on bedroom posters than actual roads. The Italian automaker is currently a subsidiary of Audi, which in turn is owned by the Volkswagen Group.</p>
+                <a href="http://127.0.0.1:5500/index.html">Browse more vehicles</a>
+            </div>
+            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/masterpieces/veneno/veneno_over_rev_01_m.jpg" alt="Lamborghini Veneno">
+        </div>
+        <div class="card">
+            <!-- number 1 -->
+            <h2>Lamborghini Revuelto</h2>
+            <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230801035637_Lambo_revuelto.jpg&w=700&c=1" alt="Lamborghini Revuelto">
+            <p class="price">$604,363  USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The Revuelto is a groundbreaking model for Lamborghini, featuring a powerful hybrid system that combines a V12 engine with three electric motors...<a href="http://127.0.0.1:5500/l1.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 2 -->
+            <h2>Lamborghini Urus Performante</h2>
+            <img src="https://media.autoexpress.co.uk/image/private/s--ZtBOJYmQ--/f_auto,t_content-image-full-desktop@1/v1665673408/autoexpress/2022/10/Lamborghini%20Urus%20Performante.jpg" alt="Lamborghini Urus Performante">
+            <p class="price">$275,000 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong>  The Urus Performante is a high-performance SUV that blends practicality with adrenaline-pumping performance...<a href="http://127.0.0.1:5500/l2.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 3 -->
+            <h2>Lamborghini Huracán STO</h2>
+            <img src="https://car-images.bauersecure.com/wp-images/13106/1056x594/huracansto_50.jpg" alt="Lamborghini Huracán STO">
+            <p class="price">$344,778 USD </p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The Huracán STO is a track-focused supercar inspired by Lamborghini's racing heritage...<a href="http://127.0.0.1:5500/l3.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 4 -->
+            <h2>Lamborghini Huracán Sterrato</h2>
+            <img src="https://static.theceomagazine.net/wp-content/uploads/2023/07/14133021/lamborghini-huracan-sterrato-2-700x467.png" alt="Lamborghini Huracán Sterrato">
+            <p class="price"> $341,000 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The Huracán Sterrato is designed for off-road performance, featuring raised suspension and rugged styling...<a href="http://127.0.0.1:5500/l4.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 5 -->
+            <h2>Lamborghini Aventador Ultimae</h2>
+            <img src="https://www.ilusso.com/imagetag/1706/2/l/Used-2022-Lamborghini-Aventador-Ultimae-LP-780-4-1687466049.jpg" alt="Lamborghini Aventador Ultimae">
+            <p class="price">$498,258 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The Aventador Ultimae is the final iteration of the iconic Aventador line...<a href="http://127.0.0.1:5500/l5.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 6 -->
+            <h2>Lamborghini Sian FKP 37</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Lamborghini_Sian_at_IAA_2019_IMG_0332.jpg" alt="Lamborghini Sian FKP 37">
+            <p class="price">$500,000 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> The Sián FKP 37 is the first super sports car powered by a V12 engine and hybrid technology based on supercapacitors...<a href="http://127.0.0.1:5500/l6.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 7 -->
+            <h2>Lamborghini Huracan EVO Spyder</h2>
+            <img src="https://hips.hearstapps.com/hmg-prod/images/2020-lamborghini-huracan-evo-spyder-drive-105-1564544743.jpg?crop=1.00xw:0.822xh;0,0.178xh&resize=1200:*" alt="Lamborghini Huracan EVO Spyder">
+            <p class="price">$308,734 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong>Combining the performance of the Huracan Evo with open-air exhilaration, the Spyder offers a thrilling driving experience...<a href="http://127.0.0.1:5500/l7.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 8 -->
+            <h2>Lamborghini Huracan GT3</h2>
+            <img src="https://www.overtake.gg/attachments/ac2-4_25_2023-4_35_38-am-jpg.658332/" alt="Lamborghini Huracan GT3">
+            <p class="price">$415,975 USD</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong> Exclusively for the race track, the Huracan GT3 is a highly specialized race car designed for maximum performance and durability...<a href="http://127.0.0.1:5500/l8.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 9 -->
+            <h2>Lamborghini Sian</h2>
+            <img src="https://media.assettype.com/evoindia%2F2020-07%2F57ee3075-b15e-4546-85f4-6174871df925%2FLamborghini_Sian_front_top_right_3_quarter.jpg?w=1200&auto=format%2Ccompress&fit=max" alt="Lamborghini Sian">
+            <p class="price">$3M Dollars ($3,000,000 USD)</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong>The Sian is a limited-production hybrid hypercar that represents the pinnacle of Lamborghini's technological prowess...<a href="http://127.0.0.1:5500/l9.html" class="learn-more">Learn more</a></p>
+        </div>
+        <div class="card">
+            <!-- number 10 -->
+            <h2>Lamborghini Aventador</h2>
+            <img src="https://www.motortrend.com/uploads/sites/5/2020/02/2020-Lamborghini-Aventador-SVJ-Roadster-45.jpg?w=512&width=512&q=75&format=webp" alt="Lamborghini Aventador">
+            <p class="price">$1M dollars ($1,000,000 USD)</p>
+            <p class="epa"></p>
+            <p class="description"><strong>C/D SAYS:</strong>The Lamborghini Aventador was a groundbreaking supercar that defined an era for the Italian automaker...<a href="http://127.0.0.1:5500/l10.html" class="learn-more">Learn more</a></p>
+        </div>
+    </div>
+</body>
+</html>
